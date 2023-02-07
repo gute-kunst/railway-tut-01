@@ -1,2 +1,0 @@
-[deploy]
-startCommand = "railway run -p 8000:$PORT railway"
