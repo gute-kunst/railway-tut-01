@@ -1,0 +1,2 @@
+[deploy]
+startCommand = "docker run -p 8000:$PORT railway"
