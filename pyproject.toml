@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{ include = "railway_tut_01" }]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.8,<3.12"
 vtk = "^9.2.5"
 fastapi = "^0.88.0"
 uvicorn = { extras = ["standard"], version = "^0.20.0" }
