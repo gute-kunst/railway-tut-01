@@ -13,6 +13,7 @@ fastapi = "^0.88.0"
 uvicorn = { extras = ["standard"], version = "^0.20.0" }
 python-multipart = "^0.0.5"
 aiofiles = "^22.1.0"
+python3-xlib = "^0.15"
 
 
 [tool.poetry.group.dev.dependencies]

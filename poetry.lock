@@ -945,6 +945,17 @@ files = [
 six = ">=1.4.0"
 
 [[package]]
+name = "python3-xlib"
+version = "0.15"
+description = "Python3 X Library"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "python3-xlib-0.15.tar.gz", hash = "sha256:dc4245f3ae4aa5949c1d112ee4723901ade37a96721ba9645f2bfa56e5b383f8"},
+]
+
+[[package]]
 name = "pyyaml"
 version = "6.0"
 description = "YAML parser and emitter for Python"
@@ -1369,4 +1380,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<3.12"
-content-hash = "29bb8a14cfbbd02ab779852f3e19d4c8033a9725113f41cf38c2e0e7624a8dd7"
+content-hash = "1533d9c185764bc81cd757ccfd0d5b5a2f49001f7f3393f7236ed46f98c85487"
