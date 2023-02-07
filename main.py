@@ -17,6 +17,9 @@ OUTPUT_FILE_PATH = "./tmp/surface.stl"
 @app.get("/", response_class=HTMLResponse)
 async def main():
     return """
+        <head>
+        <script async defer data-website-id="a0afcde6-cfaa-4a2a-b1a4-84dede35163a" src="https://umami-production-8332.up.railway.app/umami.js"></script>
+        </head>
         <body>
             <h1>Fancy Surface Reconstruction App</h1>                
 
