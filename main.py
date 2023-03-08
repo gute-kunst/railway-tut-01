@@ -55,4 +55,6 @@ async def create_upload_file(file: UploadFile, cellsize: float = Form()):
 import os
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("PORT")))
+    uvicorn.run(
+        app, host="0.0.0.0", port=int(os.getenv("PORT", 8000)), log_level="info"
+    )
